@@ -5,9 +5,9 @@
 
 Dia_01= int(input("Dia para atividade 01"))
 Dia_02 = int(input("Dia para atividade 02"))
- Dia_03= int(input("Dia para atividade 03"))
+Dia_03= int(input("Dia para atividade 03"))
 
-    if Dia_01<0 or Dia_02< o or Dia_03<0
+if Dia_01<0 or Dia_02< o or Dia_03<0
     print("erro numeros negativos")
     else:
     soma= Dia_01+ Dia_02+ Dia_03
