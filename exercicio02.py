@@ -9,6 +9,6 @@ Dia_03= int(input("Dia para atividade 03"))
 
 if Dia_01<0 or Dia_02< o or Dia_03<0
     print("erro numeros negativos")
-    else:
+else:
     soma= Dia_01+ Dia_02+ Dia_03
 print(f"tempo total do projeto:{soma} dias")
