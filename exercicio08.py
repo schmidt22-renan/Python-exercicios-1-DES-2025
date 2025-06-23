@@ -1,7 +1,9 @@
-# Talita está simulando o custo de frete para sua loja virtual. O valor depende da distância:
+distancia = float(input("por gentilesa, digite a distancia da nossa loja ate sua residemcia"))
 
-# Até 50 km: R$ 5,00
-# De 51 a 150 km: R$ 15,00
-# Acima de 150 km: R$ 25,00
+if distancia <= 50:
+    print("o valor de frete e R$5,00")
+elif distancia <= 150:
+    print("o valor do frete e R$15,00")
 
-
+else:
+print("o valor e R$25,00")
